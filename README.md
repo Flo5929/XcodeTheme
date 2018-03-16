@@ -1,22 +1,24 @@
-# 🎨 My Xcode theme - Sundell's Colors
+# 🎨 My Xcode theme - FiraCode and Sundell's Colors
 
-This repository contains the Xcode theme that I use. Feel free to use it or modify it to your liking 👍
+This repository contains the Xcode theme that I use. It's based on [John Sundell's theme](https://github.com/JohnSundell/XcodeTheme), but uses the awesome [FiraCode font](https://github.com/tonsky/FiraCode).
+
+Feel free to use it or modify it to your liking 👍
 
 ![](Preview.png)
 
 ## Installing using Marathon
 
-The easiest way to install this Xcode theme is using **[Marathon](https://github.com/johnsundell/marathon):**
+If you already have [Marathon](https://github.com/johnsundell/marathon) on your Mac, the easiest way to install this theme is to run the install script. It will install [FiraCode](https://github.com/tonsky/FiraCode) font & this Xcode theme for you:
 
-1. Install the latest version of Marathon if you haven't already:
+```
+$ marathon run jlnquere/xcodetheme
+```
+
+If you want to install [Marathon](https://github.com/johnsundell/marathon), you can use homebrew:
 ```
 $ brew install marathon-swift
 ```
 
-2. Run the install script which will install [Adobe's Source Code Pro](https://github.com/adobe-fonts/source-code-pro) font & this Xcode theme for you:
-```
-$ marathon run johnsundell/xcodetheme
-```
 
 ## Installing manually
 
@@ -24,7 +26,7 @@ You can also choose to do things manually if you want:
 
 1. Clone this repo:
 ```
-$ git clone https://github.com/johnsundell/xcodetheme.git
+$ git clone https://github.com/jlnquere/xcodetheme.git
 ```
 
 2. Create a folder at this path if it doesn't exist already:
@@ -32,16 +34,17 @@ $ git clone https://github.com/johnsundell/xcodetheme.git
 ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 ```
 
-3. Copy the file `SundellsColors.xccolortheme` into the above folder.
+3. Copy the file `SundellsFiraColors.xccolortheme` into the above folder.
 
-4. Download the latest release of Source Code Pro from [its repo](https://github.com/adobe-fonts/source-code-pro).
+4. Download the latest release of Fira Code from [its repo](https://github.com/tonsky/FiraCode).
 
 5. Unzip the font archive and move the files in the `TTF` folder to `~/Library/Fonts`.
 
-6. Should've used the install script, right? 😉
 
 ## Attributions
 
-This Xcode theme is the result of years of tweaks and modifications to some version of a "Solarized" theme. I have no idea where I got the
+This Xcode theme is based on [John Sundell's work](https://github.com/JohnSundell/XcodeTheme). As he said, this is the result of a long series of tweaking: 
+
+> This Xcode theme is the result of years of tweaks and modifications to some version of a "Solarized" theme. I have no idea where I got the
 original material for this theme from, but if you recognize some aspect of this theme as coming from something you made, feel free to open
 an issue and I'll gladly add attributions to you 🙂
