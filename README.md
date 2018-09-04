@@ -1,6 +1,6 @@
 # 🎨 My Xcode theme - FiraCode and Sundell's Colors
 
-This repository contains the Xcode theme that I use. It's based on [John Sundell's theme](https://github.com/JohnSundell/XcodeTheme), but uses the awesome [FiraCode font](https://github.com/tonsky/FiraCode).
+This repository contains the Xcode theme that I use. Fork from [Julien Quéré's theme](https://github.com/jlnquere/XcodeTheme), it's based on [John Sundell's theme](https://github.com/JohnSundell/XcodeTheme), but uses the awesome [FiraCode font](https://github.com/tonsky/FiraCode).
 
 Feel free to use it or modify it to your liking 👍
 
@@ -11,7 +11,7 @@ Feel free to use it or modify it to your liking 👍
 If you already have [Marathon](https://github.com/johnsundell/marathon) on your Mac, the easiest way to install this theme is to run the install script. It will install [FiraCode](https://github.com/tonsky/FiraCode) font & this Xcode theme for you:
 
 ```
-$ marathon run jlnquere/xcodetheme
+$ marathon run Flo5929/xcodetheme
 ```
 
 If you want to install [Marathon](https://github.com/johnsundell/marathon), you can use homebrew:
@@ -26,7 +26,7 @@ You can also choose to do things manually if you want:
 
 1. Clone this repo:
 ```
-$ git clone https://github.com/jlnquere/xcodetheme.git
+$ git clone https://github.com/Flo5929/xcodetheme.git
 ```
 
 2. Create a folder at this path if it doesn't exist already:
